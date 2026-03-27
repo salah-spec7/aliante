@@ -1,0 +1,117 @@
+/* Photo sway animations */
+@keyframes photoSway1 {
+  0%, 100% { transform: rotate(-2deg); }
+  50% { transform: rotate(2deg); }
+}
+
+@keyframes photoSway2 {
+  0%, 100% { transform: rotate(1deg); }
+  50% { transform: rotate(-3deg); }
+}
+
+@keyframes photoSway3 {
+  0%, 100% { transform: rotate(3deg); }
+  50% { transform: rotate(-1deg); }
+}
+
+.photo-sway-1 {
+  animation: photoSway1 6s ease-in-out infinite;
+}
+
+.photo-sway-2 {
+  animation: photoSway2 7s ease-in-out infinite;
+}
+
+.photo-sway-3 {
+  animation: photoSway3 8s ease-in-out infinite;
+}
+
+/* Rope sway animation */
+@keyframes ropeSway {
+  0%, 100% { transform: rotate(0deg) translateY(0); }
+  25% { transform: rotate(0.3deg) translateY(1px); }
+  75% { transform: rotate(-0.3deg) translateY(-1px); }
+}
+
+.rope-sway {
+  animation: ropeSway 5s ease-in-out infinite;
+  transform-origin: center;
+}
+
+/* Film scroll animation */
+@keyframes filmScroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.film-scroll-animation {
+  animation: filmScroll 40s linear infinite;
+}
+
+/* Perforations scroll animation */
+@keyframes perforationsScroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.perforations-scroll-animation {
+  animation: perforationsScroll 40s linear infinite;
+}
+
+/* Float gentle animation */
+@keyframes floatGentle {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+.float-gentle {
+  animation: floatGentle 4s ease-in-out infinite;
+}
+
+/* Drift animations */
+@keyframes driftLeft {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(-5px); }
+}
+
+@keyframes driftRight {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(5px); }
+}
+
+.drift-left {
+  animation: driftLeft 5s ease-in-out infinite;
+}
+
+.drift-right {
+  animation: driftRight 5s ease-in-out infinite;
+}
+
+/* Film grain animation */
+@keyframes filmGrain {
+  0%, 100% { opacity: 0.02; }
+  50% { opacity: 0.04; }
+}
+
+/* Projector light animation */
+@keyframes projectorLight {
+  0%, 100% { opacity: 0.1; transform: translate(-50%, -50%) scale(1); }
+  50% { opacity: 0.15; transform: translate(-50%, -50%) scale(1.1); }
+}
+
+/* Pulse glow */
+@keyframes pulseGlow {
+  0%, 100% { box-shadow: 0 0 5px rgba(47, 107, 255, 0.3); }
+  50% { box-shadow: 0 0 20px rgba(47, 107, 255, 0.6); }
+}
+
+.pulse-glow {
+  animation: pulseGlow 3s ease-in-out infinite;
+}
+
+/* Glass effect */
+.glass-effect {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
