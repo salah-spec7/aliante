@@ -11,7 +11,7 @@ import NotFound from './pages/NotFound';
 export default function App() {
   return (
     <ErrorBoundary>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.NODE_ENV === 'production' ? '/' : '/aliante/'}>
         <div className="min-h-screen bg-background text-foreground">
           <Navbar />
           <main>
