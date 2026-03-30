@@ -7,7 +7,7 @@ export default function FounderPage() {
     name: "Affan Liaqat Ali",
     title: "Founder & Creative Director",
     bio: "With over 10 years of experience in digital marketing and creative direction, I lead our team in delivering exceptional results for our clients. My passion lies in creating compelling brand stories that resonate with audiences and drive business growth.",
-    image_url: "/founder image.png",
+    image_url: "/aliante/founder image.png",
     social_links: [
       {
         platform: "linkedin",
