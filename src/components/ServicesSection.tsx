@@ -12,7 +12,7 @@ const services = [
     icon: Users,
     title: 'Social Media Growth',
     description: 'Strategic organic and paid social media management that builds engaged communities around your brand.',
-    image: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=400&h=250&fit=crop&auto=format',
+    image: 'https://images.unsplash.com/photo-1611262588024-d12430b98920?w=400&h=250&fit=crop&auto=format',
   },
   {
     icon: FileText,
